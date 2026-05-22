@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/* 화면 너비 0 ~ 1320px*/
+@media (max-width:1320px){
+    #section01 .sns {display: none;}
+    #section02 .s02Wrap { width: 100%;}
+    #section03 .s03Wrap {width: 100%;}
+    #section04 .s04Wrap {width: 100%;}
+    #section09 .s09Wrap {
+        width: 100%;
+    }
+}
+
+/* 화면 너비 0 ~ 1200px */
+@media (max-width:1200px){
+    .headerW_in { width: 100%; }
+    .headerWrap p { left: 30px; font-size: 22px; }
+    .header_r ul { display: none;}
+    .hamburger { display: block; }
+    .hamburger.open span:first-child {transform: rotate(45deg); margin-top: 15px;}
+    .hamburger.open span:nth-child(2){ display: none; }
+    .hamburger.open span:last-child {transform: rotate(-45deg); margin-top: -3px;}
+    #section01 { width: 100%;}
+    #section01 .portfolio {
+        right: 23px;
+    }
+    #section01 .s01_main {
+        left: 30px;
+    }
+    #section03 .s03Wrap .skills { width: 100%;}
+    #section03 .charts {width: 100%;}
+    #section03 .s03Wrap li span { width: 180px; height: 180px;}
+    #section04 .s04Wrap {
+        width: 100%;
+    }
+    #section04 .port_txt h1 {
+        font-size: 40px;
+    }
+    #section04 .port_txt {
+        padding:20px 0 0 20px;
+    }
+    
+}
+
+
+/* 화면 너비 0 ~ 1020px */
+@media (max-width:1020px){
+    /* #section01 .s01_main .br {display: block;} */
+    #section01 .s01_main { font-size: 57px;}
+    #section01 .portfolio:after { top: 16px; height: 54px;}
+    #section02 .s02Wrap {border-radius: 0;}
+    #section02 .s02Wrap .title { margin-bottom: 40px;}
+    #section02 .s02Top { width: 100%;}
+    #section02 img { display: none;}
+    #section02 .s02Bot { width: 100%; flex-wrap: nowrap; }
+    #section02 .s02Bot div { text-align: center; }
+    #section02 .s02Bot div h2 { font-size: 1.6em;}
+    #section02 .s02Bot div li { font-size: 0.95em;}
+    #section02 .s02Top .s02Txt { position: inherit; transform: translateX(0);
+display: inline;}
+    #section02 .s02Top p {font-size: 25px;}
+    #section02 .s02Top p:nth-of-type(2) { font-size: 15px;}
+    #section03 .s03Wrap { margin-top: 50px;}
+    #section03 .charts { flex-wrap: wrap;}
+    #section03 .charts .chart { flex-grow: 0; margin-top: 20px;}
+    #section04 .port_menu { text-align: center;}
+    #section04 .s04Wrap { top: 62%;}
+    #section04 .port_img li { width: 30.3333%;}
+    #section04 #modal { top: 50%; }
+    #section09 .s09Cont { width: 100%;}
+    #section09 .s09Cont .soon p { font-size: 40px; display: inline-block;}
+    #section09 .s09Wrap { top:60%;}
+    #section09 .s09Cont .soon p {margin: 0 auto 90px;}
+    #copyright {bottom: -15px;}
+}
+
+/* 화면 너비 0 ~ 900px */
+@media (max-width:900px){
+    #section02 .s02Top img {display: none;}
+}
+
+/* 화면 너비 0 ~ 795px */
+@media (max-width:795px){
+    #section03 .charts {width: 100%;}
+    .br { display: block;}
+    .headerWrap p { font-size: 20px;}
+    #section01 .s01_main { font-size: 50px;}
+    #section01 .portfolio { font-size: 16px;}
+    #section01 .portfolio:after { top: 15px; height: 46px;}
+    #section02 .s02Wrap { background: #f3f3f3; top: 78%;}
+    #section02 .s02Top .s02Txt { height: auto; width: 100%;}
+    #section02 .s02Bot { flex-wrap: wrap;}
+    #section02 .s02Bot div.right { margin-bottom: 50px;}
+    #section02 .s02Bot div { display:inline-block; flex-basis: 47%; margin: auto; padding: 20px;}
+    #section03 { margin-top: 304px;}
+    #section04 .s04Wrap {height :auto; top: 79%;}
+    #section04 .port_img li img {width: 100%;}
+    #section09 .s09Wrap {top: 96%;}
+    #copyright { bottom: -270px;}
+    #section04 #modal {top: 600px}
+}
+
+/* 화면 너비 0 ~ 535px */
+@media (max-width:535px){
+    #section03 .charts {
+        margin-top: 600px;
+        width: 50%;
+    }
+    #section03 .charts { overflow: inherit;}
+    #section04{ position: inherit;}
+    #section04 .s04Wrap{ position: relative; top: 1120px;}
+    #section09 {top:640px}
+    #section04 #modal {top: 3550px}
+    #section09 .s09Cont .soon p {
+        font-size: 30px;
+    }
+    #copyright {bottom: -320px;}
+}
+
+/* 화면 너비 0 ~ 420px */
+@media (max-width:420px){
+    .title > h1 { font-size: 24px;}
+    #section01 .s01_main {
+        font-size: 38px;
+    }
+    #section02 .s02Top p { font-size: 19px;}
+    #section02 .s02Top p:nth-of-type(2) {font-size: 13px;}
+    #section02 .s02Bot div.right {
+        margin-bottom: 128px;
+    }
+    #section02 .s02Bot div h2 { font-size: 1.25em;}
+    #section03 .chart p {font-size: 17px;}
+    #section04 .port_menu li a {
+        padding: 7px 22px;
+    }
+    #section09 .s09Cont .soon p {
+        font-size: 28px;
+    }
+    #section09 .s09Cont .info a {
+        font-size: 16px;
+    }
+    .copyright p {
+        font-size: 11px;
+    }
+}
